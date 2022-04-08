@@ -1,4 +1,4 @@
-const initialTime = 25;
+const initialTime = 1;
 let timeInMin = initialTime * 60;
 console.log(timeInMin)
 
@@ -10,7 +10,7 @@ function countdown() {
 
 let timeRemain = timeInMin;
 
-setInterval(() =>{
+let interval = setInterval(() =>{
 
 let minutes = parseInt(timeRemain / 60, 10);
 //Conditional operator = if/else//
@@ -24,8 +24,12 @@ console.log(seconds)
 
 
 timerWindows.innerHTML = `${minutes} : ${seconds}` 
-//timeInMin = timeInMin <= 0 ? 0 : timeInMin - 1
+//timeRemain = timeRemain == 0 ? 0 : timeRemain - 0
 timeRemain--
+
+if (timeRemain < 0 ){
+    clearInterval(interval)
+}
 
 }, 1000)
 
