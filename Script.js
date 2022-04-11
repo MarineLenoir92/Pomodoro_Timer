@@ -1,10 +1,10 @@
-const initialTime = 1;
+const initialTime = 25;
 let timeInMin = initialTime * 60;
 console.log(timeInMin)
 
 const timerWindows = document.getElementById("timer")
 
-
+document.getElementById("start").addEventListener("click", countdown)
 
 function countdown() {
 
@@ -36,4 +36,5 @@ if (timeRemain < 0 ){
 }
 
 
-countdown()
+
+//countdown()

@@ -2,10 +2,36 @@ body {
     background-color: #72EED6;
 }
 
-#title{
+#title {
     text-align: center;
 }
 
-#timer {
-    text-align: center;
+#timerWindows{
+    position: relative;
+    background-color: #BFFEEB;
+    border: 5px solid #FFFFFF;
+    height: 550px ;
+    margin-top: 70px;
+    margin-left: 130px;
+    margin-right: 130px;    
 }
+
+
+#timer {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+#start{
+    position:absolute;
+    background-color: #50D2A4;
+    border-color: #50D2A4;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-left: 18%;
+    margin-top: 8%;
+    padding: 20px 40px 20px 40px; 
+}
+
