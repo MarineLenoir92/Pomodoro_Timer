@@ -4,6 +4,11 @@ body {
 
 #title {
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    color: #FF837D;
+    letter-spacing: 1.5px;
+    font-weight: 300;
 }
 
 #timerWindows{
@@ -11,7 +16,6 @@ body {
     background-color: #BFFEEB;
     border: 5px solid #FFFFFF;
     height: 550px ;
-    margin-top: 70px;
     margin-left: 155px;
     margin-right: 155px;    
 }
