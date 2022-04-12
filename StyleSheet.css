@@ -17,19 +17,27 @@ body {
 }
 
 
-#timer {
+#timer{
     position: relative;
     text-align: center;
     font-size: 40px;
     margin-top: 60px;
 }
 
-#start{
-    position:absolute;
+.buttons{
     background-color: #50D2A4;
     border-color: #50D2A4;
+    border-radius: 10px;
     color: #FFFFFF;
     font-size: 25px;
+}
+
+.buttons:hover{
+    background-color:#72EED6;
+}
+
+#start{
+    position:absolute;
     margin-left: 18%;
     margin-top: 8%;
     padding: 20px 40px 20px 40px; 
