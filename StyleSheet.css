@@ -14,6 +14,7 @@ body {
 #timerWindows{
     position: relative;
     background-color: #BFFEEB;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
     border: 5px solid #FFFFFF;
     height: 550px ;
     margin-left: 155px;
