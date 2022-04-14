@@ -26,11 +26,8 @@ timerWindows.innerHTML = `${minutes} : ${seconds}`
 //timeRemain = timeRemain == 0 ? 0 : timeRemain - 0
 timeRemain--
 
-if (timeRemain == 0){
-    document.getElementById("alarm").play()
-}
 if (timeRemain < 0 ){
-    clearInterval(interval)
+    document.getElementById("alarm").play() && clearInterval(interval)
 }
 }, 1000)
 }
