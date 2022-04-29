@@ -48,6 +48,10 @@ body {
     padding-bottom: 38px;
 }
 
+#buttons{
+    display:flex;
+}
+
 .buttons{
     background-color: #50D2A4;
     border: 2.5px solid #FFFFFF;
@@ -72,3 +76,8 @@ body {
     margin-top: 4.5%;
 }
 
+#pause{
+    position:absolute;
+    margin-left: 40%;
+    margin-top: 4.5%;
+}
