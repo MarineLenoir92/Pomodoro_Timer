@@ -61,4 +61,4 @@ function stop(){
     timerWindows.innerHTML = `${minutes} : ${seconds}` ;
     timerWindowsToolbar.innerHTML = `(${minutes} : ${seconds})` + "  Pomodoro Timer";
 }
-// https://www.youtube.com/watch?v=vAEG6OVCass
+
