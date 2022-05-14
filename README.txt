@@ -21,7 +21,7 @@ Etape 2:
 
 Etape 3: 
 
-- Coder la Fonctionnalité 1 - Timer fonctionnel avec bouton start en 6 itérations
+###Fonctionnalité 1 - Timer fonctionnel avec bouton start en 6 itérations
 
 Itération 1
 - [x]  Lorsque je suis sur la page du Pomodoro Timer: je dois voir le timer affiché à 25:00.
@@ -53,7 +53,28 @@ Itération 6
 Lorsque le timer se met en route :
 - [x]  Le timer doit se déclencher en parallèle dans l’onglet
 - [x]  Un message “UNE PAUSE S’IMPOSE!” doit s’afficher lorsque le timer s’arrête
-- [x]  Ajouter une image dans l’onglet de tomate ou réveil
+- [x]  Ajouter une icône réveil dans l’onglet
+
+
+### Fonctionnalité 2 - Timer fonctionnel avec bouton pause
+
+Itération 7
+
+Lorsque je suis sur la page du Pomodoro Timer:
+
+- [x]  Voir un bouton RESET cliquable, stylisé (cf Etape 1) et changer de couleur lorsque la souris le survole avec un pointeur en forme de main.
+- [x]  Lorsque je clique sur le bouton PAUSE, le timer doit s’arrêter
+- [x]  Pour remettre en marche le timer, je dois cliquer que START
+
+
+
+### Fonctionnalité 3 - Timer fonctionnel avec bouton stop
+
+Itération 8
+
+- [x]  Voir un bouton STOP cliquable, stylisé (cf Etape 1) et changer de couleur lorsque la souris le survole avec un pointeur en forme de main
+- [x]  Lorsque je clique sur le bouton STOP, le timer doit s’arrêter
+- [x]  Pour remettre en marche le timer, je dois cliquer que START
 
 
 
