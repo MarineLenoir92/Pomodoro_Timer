@@ -41,7 +41,7 @@ timerWindowsToolbar.innerHTML = `(${minutes} : ${seconds})` + "  Pomodoro Timer"
 timeRemain--
 
 if (timeRemain < 0) {
-    document.getElementById("alarm").play() && clearInterval(interval);
+    document.getElementById("alarm").play() && clearInterval(startTimer);
     timerWindowsToolbar.innerHTML = "UNE PAUSE S'IMPOSE !";
 }
 }
