@@ -1,4 +1,4 @@
-const initialTime = 25;
+let initialTime = 25;
 let timeInMin = initialTime * 60;
 let timeRemain = timeInMin;
 var startTimer;
@@ -8,7 +8,7 @@ const timerWindows = document.getElementById("timer")
 const timerWindowsToolbar = document.getElementById("countdown")
 
 
-document.getElementById("start").addEventListener("click", function(){
+document.getElementById("start").addEventListener("click", function start(){
     if(startTimer === undefined){
         startTimer = setInterval(countdown, 1000)
     }
@@ -24,6 +24,7 @@ document.getElementById("reset").addEventListener("click", function(){
 document.getElementById("stop").addEventListener("click", function(){
     stop()
 })
+
 
 function countdown() {
 let minutes = parseInt(timeRemain / 60, 10);
@@ -49,10 +50,10 @@ if (timeRemain < 0) {
 
 function reset(){
     clearInterval(startTimer);
-    startTimer = undefined;
+    timeRemain = initialTime * 60
+    startTimer = undefined
     timerWindows.innerHTML = "25 : 00" ;
     timerWindowsToolbar.innerHTML = "(25 : 00)"  + "  Pomodoro Timer";
-    stop()
 }
 
 function stop(){
