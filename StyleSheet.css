@@ -76,4 +76,169 @@ body {
 }
 
 
- 
+ @media (min-width: 768px) and (max-width: 992px){
+
+   *{
+      margin: 0;
+  }
+  
+  body {
+     background: linear-gradient(to bottom, #FF837D 20%, #FFA29D 50%, #95F2E0 50%, #72EED6 80%) fixed;
+  }
+  
+  #title {
+     text-align: center;
+     font-family: 'Comfortaa', cursive;
+     font-size: 35px;
+     color: #FEF68E;
+     letter-spacing: 1.7px;
+     font-weight: 300;
+     padding-top: 35px;
+  }
+  
+  #timerWindows{
+     position: relative;
+     background-color: #BFFEEB;
+     box-shadow: 0 0 10px #FFFFFF;
+     border: 4px solid #FFFFFF;
+     border-radius: 8px;
+     height: 520px;
+     margin-top: 45px;
+     margin-bottom: 90px;
+     margin-left: 10%;
+     margin-right: 10%;    
+  }
+  
+  
+  #timer{
+     position: relative;
+     text-align: center;
+     font-size: 37px;
+     font-family: 'Comfortaa', cursive;
+     font-weight: 400;
+     color: #626262;
+     letter-spacing: 1.5px;
+     margin-top: 60px;
+     border: 4px solid #FFA29D;
+     border-radius: 8px;
+     background-color: #FFFFFF;
+     margin-left : 20%;
+     margin-right : 20%;
+     margin-top: 48px;
+     padding-top: 38px;
+     padding-bottom: 38px;
+  }
+  
+  #buttons {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     margin-top: 10%;
+  }
+  
+  .buttons{
+     background-color: #50D2A4;
+     border: 2.5px solid #FFFFFF;
+     border-radius: 8px;
+     box-shadow: 0 0 5px #FFFFFF;
+     color: #FFFFFF;
+     font-size: 18.5px;
+     font-family: 'Comfortaa', cursive;
+     font-weight: 700;
+     padding: 30px 45px 30px 45px; 
+     letter-spacing: 1.3px;
+     margin-left: 0px;
+  }
+  
+  .buttons:hover{
+     cursor: pointer;
+     background-color:#72EED6;
+  }
+  
+
+
+ }
+
+
+ @media (max-width: 768px){
+
+   *{
+      margin: 0;
+  }
+  
+  body {
+     background: linear-gradient(to bottom, #FF837D 20%, #FFA29D 50%, #95F2E0 50%, #72EED6 80%) fixed;
+  }
+  
+  #title {
+     text-align: center;
+     font-family: 'Comfortaa', cursive;
+     font-size: 35px;
+     color: #FEF68E;
+     letter-spacing: 1.7px;
+     font-weight: 300;
+     padding-top: 35px;
+  }
+  
+  #timerWindows{
+     position: relative;
+     background-color: #BFFEEB;
+     box-shadow: 0 0 10px #FFFFFF;
+     border: 4px solid #FFFFFF;
+     border-radius: 8px;
+     height: 520px;
+     margin-top: 45px;
+     margin-bottom: 90px;
+     margin-left: 10%;
+     margin-right: 10%;    
+  }
+  
+  
+  #timer{
+     position: relative;
+     text-align: center;
+     font-size: 37px;
+     font-family: 'Comfortaa', cursive;
+     font-weight: 400;
+     color: #626262;
+     letter-spacing: 1.5px;
+     margin-top: 60px;
+     border: 4px solid #FFA29D;
+     border-radius: 8px;
+     background-color: #FFFFFF;
+     margin-left : 20%;
+     margin-right : 20%;
+     margin-top: 48px;
+     padding-top: 38px;
+     padding-bottom: 38px;
+  }
+  
+  #buttons {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     margin-top: 10%;
+  }
+  
+  .buttons{
+     background-color: #50D2A4;
+     border: 2.5px solid #FFFFFF;
+     border-radius: 8px;
+     box-shadow: 0 0 5px #FFFFFF;
+     color: #FFFFFF;
+     font-size: 18.5px;
+     font-family: 'Comfortaa', cursive;
+     font-weight: 700;
+     padding: 30px 45px 30px 45px; 
+     letter-spacing: 1.3px;
+     margin-left: 0px;
+  }
+  
+  .buttons:hover{
+     cursor: pointer;
+     background-color:#72EED6;
+  }
+  
+
+
+ }
